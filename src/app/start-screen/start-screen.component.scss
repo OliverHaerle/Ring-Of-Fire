@@ -1,0 +1,31 @@
+.start-screen {
+    background-color: #404040;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-ring-img {
+    height: 99vh;
+}
+
+.logo {
+    background-color: #404040d0;
+    padding: 0 32px;
+
+    &:hover {
+        background-color: #40404067;
+        cursor: pointer;
+    }
+}
+
+.logo,
+.logo-text {
+    position: absolute;
+    width: 33vw;
+    height: 10vw;
+}
+
